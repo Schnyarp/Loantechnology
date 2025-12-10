@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Loan.technology — Premium Domain For Sale</title>
+  <meta name="description" content="Loan.technology — premium domain ideal for lending platforms, fintech loan infrastructure, embedded finance, credit-tech and loan automation. Submit an offer to purchase." />
+  <meta property="og:title" content="Loan.technology — Premium Domain For Sale" />
+  <meta property="og:description" content="Loan.technology — brandable domain for lending platforms, embedded finance, loan automation and credit technology products. Contact domain@loan.technology" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#071826" />
+  <link rel="icon" href="/favicon.ico" />
+
+  <style>
+    :root{
+      --max-width:1120px;
+      --bg-top:#071826;
+      --bg-mid:#0b3444;
+      --bg-bottom:#eaf6f7;
+      --card:#ffffff;
+      --muted:#7b98a0;
+      --ink:#04282b;
+      --accent:#08b5c7;
+      --accent-2:#00c176;
+      --glass: rgba(255,255,255,0.04);
+      --radius:16px;
+      --shadow: 0 32px 110px rgba(3,9,12,0.6);
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0}
+    body{
+      min-height:100vh;
+      display:flex;
+      align-items:flex-start;
+      justify-content:center;
+      padding:40px 20px;
+      color:var(--card);
+      background:
+        radial-gradient(800px 260px at 10% 8%, rgba(0,193,118,0.04), transparent 12%),
+        linear-gradient(180deg,var(--bg-top) 0%, var(--bg-mid) 48%, var(--bg-bottom) 100%);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.45;
+      overflow-x:hidden;
+    }
+
+    /* Chosen look: "Modern Lending Lab"
+       - crisp tech-finance aesthetic: deep night gradient, translucent glass cards, subtle grid
+       - tech accents in teal/green; floating data/icons represent lending flows
+       - decorative layers are non-interactive (pointer-events:none)
+    */
+    .bg { position:fixed; inset:0; z-index:0; pointer-events:none; overflow:visible; }
+
+    .grid-overlay {
+      position:fixed;
+      left:50%;
+      top:6%;
+      transform:translateX(-50%);
+      width:1100px;
+      height:360px;
+      z-index:0;
+      pointer-events:none;
+      background-image:
+        linear-gradient(transparent 0 1px, rgba(255,255,255,0.02) 1px),
+        linear-gradient(90deg, transparent 0 1px, rgba(255,255,255,0.02) 1px);
+      background-size:100% 28px, 28px 100%;
+      opacity:0.06;
+      border-radius:20px;
+      mix-blend-mode:overlay;
+    }
+
+    .circuit {
+      position:fixed;
+      left:8%;
+      top:8%;
+      width:320px;
+      height:300px;
+      z-index:0;
+      pointer-events:none;
+      opacity:0.06;
+      background-image:
+        url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 300'><g stroke='%23000000' stroke-opacity='0.03' stroke-width='2' fill='none'><path d='M10 40h300M10 80h260M10 120h220'/></g></svg>");
+      background-repeat:repeat-y;
+      background-size:320px 120px;
+      mix-blend-mode:screen;
+    }
+
+    .floaters { position:fixed; inset:0; z-index:0; pointer-events:none; overflow:visible; }
+
+    .badge {
+      position:absolute;
+      width:76px;
+      height:76px;
+      background-size:contain;
+      background-repeat:no-repeat;
+      opacity:0.12;
+      will-change:transform,opacity;
+      filter: drop-shadow(0 18px 48px rgba(0,0,0,0.6));
+    }
+
+    @keyframes floaty {
+      0% { transform: translateY(0) rotate(-6deg); opacity:0.08; }
+      50% { transform: translateY(-18px) rotate(6deg); opacity:0.2; }
+      100% { transform: translateY(0) rotate(-6deg); opacity:0.08; }
+    }
+
+    .container{
+      width:100%;
+      max-width:var(--max-width);
+      padding:36px;
+      border-radius:18px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      box-shadow: var(--shadow);
+      border: 1px solid rgba(255,255,255,0.02);
+      position:relative;
+      z-index:2;
+    }
+
+    header{
+      display:flex;
+      gap:18px;
+      align-items:center;
+      justify-content:space-between;
+      margin-bottom:14px;
+    }
+
+    .brand{ display:flex; gap:14px; align-items:center; }
+    .logo{
+      width:96px;
+      height:96px;
+      border-radius:16px;
+      background: linear-gradient(135deg, rgba(8,181,199,0.16), rgba(0,193,118,0.12));
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:var(--card);
+      font-weight:900;
+      font-size:20px;
+      flex-shrink:0;
+      border: 1px solid rgba(255,255,255,0.03);
+      backdrop-filter: blur(6px) saturate(120%);
+    }
+
+    h1{ margin:0; font-size:26px; color:var(--card); }
+    p.lead{ margin:6px 0 0; color:var(--muted); font-size:14px; max-width:760px; }
+
+    .grid-layout{
+      display:grid;
+      grid-template-columns: 1fr 360px;
+      gap:26px;
+      align-items:start;
+      margin-top:18px;
+    }
+
+    .hero {
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      padding:22px;
+      border-radius:14px;
+      color:var(--card);
+      border:1px solid rgba(255,255,255,0.03);
+      display:flex;
+      gap:18px;
+      align-items:center;
+      justify-content:space-between;
+    }
+    .hero h2{ margin:0 0 8px 0; font-size:20px; color:var(--card); }
+    .hero p{ margin:0; color:var(--muted); }
+
+    .panel {
+      background: linear-gradient(180deg, #fff, #fbfbfb);
+      color:var(--ink);
+      padding:20px;
+      border-radius:12px;
+      box-shadow: 0 10px 30px rgba(2,8,10,0.06);
+      border: 1px solid rgba(2,8,10,0.03);
+      max-width:820px;
+    }
+
+    h2.section { margin-top:0; font-size:18px; color:var(--accent-2); }
+    .features ul{ margin:0; padding-left:18px; color:var(--muted); }
+    .features li{ margin-bottom:10px; }
+
+    .samples { display:flex; gap:12px; margin-top:12px; flex-wrap:wrap; }
+    .sample {
+      min-width:140px;
+      padding:12px;
+      border-radius:10px;
+      background: linear-gradient(180deg,#fff,#fbfbfb);
+      border:1px solid rgba(2,8,10,0.03);
+      box-shadow: 0 6px 18px rgba(2,8,10,0.04);
+      font-weight:700;
+      color:var(--muted);
+      text-align:center;
+    }
+
+    .cta-row{ display:flex; gap:12px; margin-top:16px; flex-wrap:wrap; align-items:center; }
+    .btn{
+      display:inline-flex;
+      gap:10px;
+      align-items:center;
+      padding:10px 14px;
+      border-radius:999px;
+      font-weight:800;
+      cursor:pointer;
+      text-decoration:none;
+      border:0;
+    }
+    .btn-primary{
+      background: linear-gradient(90deg,var(--accent), var(--accent-2));
+      color:#052828;
+      box-shadow: 0 10px 30px rgba(2,8,10,0.12);
+    }
+    .btn-ghost{
+      background:transparent;
+      border:1px solid rgba(255,255,255,0.06);
+      color:var(--muted);
+    }
+
+    .contact-card{
+      position:sticky;
+      top:34px;
+      align-self:start;
+      background: linear-gradient(180deg,#ffffff,#fbfbfb);
+      padding:18px;
+      border-radius:12px;
+      border:1px solid rgba(2,8,10,0.03);
+      box-shadow: 0 8px 26px rgba(2,8,10,0.04);
+      max-width:360px;
+      color:var(--ink);
+    }
+
+    .contact-card h3{ margin:0 0 8px 0; font-size:16px; color:var(--accent); }
+    .contact-email, .contact-email a{
+      display:inline-block;
+      font-weight:800;
+      color:var(--accent-2);
+      font-size:0.98rem;
+      text-decoration:none;
+    }
+
+    form label{ display:block; font-size:13px; color:var(--muted); margin-bottom:6px; }
+    form input, form textarea {
+      width:100%;
+      padding:10px 12px;
+      border-radius:10px;
+      border:1px solid rgba(2,8,10,0.06);
+      background:#fff;
+      color:var(--ink);
+      font-size:14px;
+      margin-bottom:12px;
+    }
+    form textarea{ min-height:110px; resize:vertical; }
+
+    .resources { margin-top:14px; font-size:13px; color:var(--muted); border-top:1px dashed rgba(2,8,10,0.04); padding-top:12px; }
+    .resources a { color:var(--accent-2); font-weight:700; text-decoration:none }
+
+    footer{ margin-top:18px; color:var(--muted); font-size:13px; text-align:center; }
+
+    @media (max-width:980px){
+      .grid-layout{ grid-template-columns: 1fr; gap:18px; }
+      .contact-card{ position:relative; top:auto; width:100%; max-width:none; }
+      .container{ padding:24px; }
+      h1{ font-size:22px; }
+      .grid-overlay, .circuit, .floaters { display:none; }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"WebSite",
+        "url":"https://loan.technology",
+        "name":"Loan.technology",
+        "description":"Loan.technology — premium domain for lending platforms, embedded finance, loan automation, and credit-technology products."
+      },
+      {
+        "@type":"ContactPoint",
+        "contactType":"sales",
+        "email":"domain@loan.technology"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="bg" aria-hidden="true">
+    <div class="grid-overlay" aria-hidden="true"></div>
+    <div class="circuit" aria-hidden="true"></div>
+    <div class="floaters" id="floaters" aria-hidden="true"></div>
+  </div>
+
+  <main class="container" role="main" aria-labelledby="main-heading">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden="true">LT</div>
+        <div>
+          <h1 id="main-heading">Loan.technology</h1>
+          <p class="lead">Premium domain for lending platforms, embedded finance, loan automation, credit-tech and fintech infrastructure.</p>
+        </div>
+      </div>
+
+      <div style="text-align:right">
+        <div style="color:var(--muted);font-size:13px">For inquiries</div>
+        <div class="contact-email"><a href="mailto:domain@loan.technology">domain@loan.technology</a></div>
+      </div>
+    </header>
+
+    <section class="grid-layout" aria-label="Main content">
+      <div>
+        <div class="hero" role="note" aria-live="polite" aria-labelledby="hero-title">
+          <div>
+            <h2 id="hero-title">A direct, brandable name for lending technology</h2>
+            <p>Loan.technology positions a product clearly at the intersection of loans and tech—ideal for loan orchestration, underwriting engines, embedded lending, marketplace lending and credit automation.</p>
+
+            <div class="cta-row">
+              <a class="btn btn-primary" href="#" id="inquireBtn">Make an Offer</a>
+              <a class="btn btn-ghost" href="mailto:domain@loan.technology?subject=Domain%20Offer%20-%20Loan.technology">Email Now</a>
+            </div>
+          </div>
+
+          <div style="min-width:220px; text-align:center">
+            <div style="color:var(--muted); font-size:13px">Domain</div>
+            <div style="font-weight:900; font-size:18px; margin-top:6px">Loan.technology</div>
+            <div style="color:var(--muted); font-size:13px; margin-top:8px">Serious offers only.</div>
+          </div>
+        </div>
+
+        <article class="panel" aria-labelledby="why-title" style="margin-top:18px">
+          <h2 id="why-title" class="section">Why Loan.technology?</h2>
+          <p>Precise and memorable—this domain is a fit for platforms and teams building the future of lending. Use it for API-first lending stacks, underwriting & decisioning tools, loan servicers, embedded finance integrations and fintech marketplaces.</p>
+
+          <div class="features" style="margin-top:12px">
+            <ul>
+              <li>Category clarity — signals lending + technology to partners and customers</li>
+              <li>Works for both B2B infrastructure and consumer-facing lending products</li>
+              <li>Brandable across dashboards, developer docs, partner portals and marketing</li>
+            </ul>
+          </div>
+
+          <div class="samples" aria-hidden="false">
+            <div class="sample">Loan Orchestration API</div>
+            <div class="sample">Underwriting & Decision Engine</div>
+            <div class="sample">Embedded Lending Platform</div>
+            <div class="sample">Marketplace / P2P Lending</div>
+          </div>
+        </article>
+
+        <article class="panel" style="margin-top:18px" aria-labelledby="about-title">
+          <h3 id="about-title" style="margin-top:0">About this domain</h3>
+          <p>Loan.technology is a premium domain available for transfer.</p>
+
+          <ul style="color:var(--muted);margin-top:12px">
+            <li>Well-suited to fintech founders, lending platforms, infrastructure teams and enterprise partners</li>
+            <li>Useful for integrations with credit bureaus, payment rails, loan servicing, and analytics platforms</li>
+            <li>We use escrow to ensure a smooth, secure transfer for both buyer and seller.</li>
+          </ul>
+
+          <div class="resources" aria-labelledby="resources-title">
+            <div id="resources-title" style="font-weight:800; margin-bottom:8px">Helpful resource</div>
+            <div><a href="https://corelli.com/domains.html" target="_blank" rel="noopener noreferrer">How To Choose A Domain Name</a></div>
+          </div>
+        </article>
+      </div>
+
+      <aside class="contact-card" aria-label="Contact & offer">
+        <div>
+          <h3 style="margin-top:0">Contact & Offer</h3>
+          <p style="margin-top:6px;color:var(--muted)">Submit an offer — this form opens your email client with the details prefilled. Or email <a href="mailto:domain@loan.technology" class="contact-email">domain@loan.technology</a>.</p>
+
+          <form id="inquiryForm" onsubmit="handleSubmit(event)" aria-label="Domain offer form">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" placeholder="Jane Doe" required />
+
+            <label for="email">Your email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required />
+
+            <label for="offer">Your offer (USD)</label>
+            <input id="offer" name="offer" type="text" placeholder="Enter your offer (USD)" required />
+
+            <label for="company">Company (optional)</label>
+            <input id="company" name="company" type="text" placeholder="Your company or organization" />
+
+            <label for="country">Country</label>
+            <input id="country" name="country" type="text" placeholder="Your country" required />
+
+            <label for="phone">Phone number (optional)</label>
+            <input id="phone" name="phone" type="tel" />
+
+            <label for="message">Message (questions, timeline, escrow preference)</label>
+            <textarea id="message" name="message" placeholder="Hi — I'm submitting an offer for Loan.technology. Please share transfer instructions and next steps."></textarea>
+
+            <button class="btn btn-primary" type="submit" style="width:100%; margin-top:6px">Send Offer</button>
+          </form>
+
+          <footer style="margin-top:10px; text-align:left; color:var(--muted); font-size:13px">
+            Prefer a direct email? <a href="mailto:domain@loan.technology" style="color:var(--accent-2)" class="contact-email">domain@loan.technology</a>
+          </footer>
+        </div>
+      </aside>
+    </section>
+
+    <footer>
+      &copy; 2025 Loan.technology. All rights reserved.
+    </footer>
+  </main>
+
+  <script>
+    // floating technology & lending badges: chip, document, handshake, growth (data-URI SVGs)
+    (function placeFloaters(){
+      const layer = document.getElementById('floaters');
+      if(!layer) return;
+
+      const svgs = {
+        chip: encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect x='10' y='10' width='44' height='44' rx='8' fill='%23FFFFFF' stroke='%23000000' stroke-opacity='0.03'/><circle cx='32' cy='32' r='8' fill='%2308B5C7'/></svg>`),
+        doc: encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect x='12' y='10' width='40' height='44' rx='4' fill='%23FFFFFF' stroke='%23000000' stroke-opacity='0.03'/><path d='M18 22h28M18 30h28M18 38h18' stroke='%23000000' stroke-opacity='0.04' stroke-width='1.5' stroke-linecap='round'/></svg>`),
+        shake: encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><path d='M18 34c6-8 22-10 28-4l-6 12-16 2-6-10z' fill='%23FFFFFF' stroke='%23000000' stroke-opacity='0.04'/></svg>`),
+        growth: encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><path d='M8 36v-14l8 6 8-12 12 10' stroke='%2300C176' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>`)
+      };
+
+      const items = [
+        {svg:svgs.chip, left:'12%', top:'18%', size:84, dur:9000},
+        {svg:svgs.doc, left:'78%', top:'16%', size:72, dur:11000},
+        {svg:svgs.shake, left:'48%', top:'66%', size:74, dur:10000},
+        {svg:svgs.growth, left:'84%', top:'54%', size:68, dur:12000}
+      ];
+
+      items.forEach(it=>{
+        const el = document.createElement('div');
+        el.className = 'badge';
+        el.style.left = it.left;
+        el.style.top = it.top;
+        el.style.width = it.size + 'px';
+        el.style.height = it.size + 'px';
+        el.style.backgroundImage = `url("data:image/svg+xml;utf8,${it.svg}")`;
+        el.style.animation = `floaty ${it.dur}ms ease-in-out ${Math.random()*1200}ms infinite`;
+        layer.appendChild(el);
+      });
+    })();
+
+    // Compose mailto and open user's email client with form contents
+    function handleSubmit(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const offer = document.getElementById('offer').value.trim();
+      const company = document.getElementById('company').value.trim();
+      const country = document.getElementById('country').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      const subject = encodeURIComponent('Domain Offer - Loan.technology');
+      const bodyText =
+        `Name: ${name}\n` +
+        `Email: ${email}\n` +
+        `Company: ${company || '(not provided)'}\n` +
+        `Offer (USD): ${offer}\n` +
+        `Country: ${country}\n` +
+        `Phone: ${phone || '(not provided)'}\n\n` +
+        `Message:\n${message}\n\n---\nSent from Loan.technology offer form`;
+
+      window.location.href = `mailto:domain@loan.technology?subject=${subject}&body=${encodeURIComponent(bodyText)}`;
+    }
+
+    document.getElementById('inquiryForm').addEventListener('submit', handleSubmit);
+
+    // Inquire button: scroll to form on mobile, open mailto on desktop
+    document.getElementById('inquireBtn').addEventListener('click', function(e){
+      e.preventDefault();
+      const form = document.getElementById('inquiryForm');
+      if(window.innerWidth < 900){
+        form.scrollIntoView({behavior:'smooth', block:'center'});
+        form.querySelector('input')?.focus();
+      } else {
+        const subject = encodeURIComponent('Domain Offer - Loan.technology');
+        const body = encodeURIComponent('Hi — I would like to make an offer for Loan.technology. Please reply with transfer instructions and next steps.');
+        window.location.href = `mailto:domain@loan.technology?subject=${subject}&body=${body}`;
+      }
+    });
+  </script>
+</body>
+</html>
